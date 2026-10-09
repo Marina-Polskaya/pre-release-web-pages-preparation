@@ -1,0 +1,28 @@
+.link-back {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+
+  &__text {
+    color: $color-suva-grey;
+  }
+
+  &:hover &__text {
+    color: $color-blue;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:focus-visible &__text {
+    color: $color-blue;
+  }
+
+  &__icon {
+    color: $color-blue;
+  }
+}

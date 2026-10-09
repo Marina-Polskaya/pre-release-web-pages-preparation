@@ -1,0 +1,11 @@
+.social-link {
+    display: flex;
+    color: $color-black;
+    transition: color $transition-300;
+
+    &:hover,
+    &:focus-visible {
+      color: $color-dim-gray;
+      outline: none;
+    }
+}
